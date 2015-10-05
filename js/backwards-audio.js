@@ -113,10 +113,15 @@ function attachHandlers() {
         var time = src.context.currentTime;
         console.log(time + "variable time");
 
-        if (element.is('.paused')) src.stop(src.context.currentTime);
+//        if (element.is('.paused')) src.stop(src.context.currentTime);
+//        else {
+//            toggleDirection(element);
+//            fetch("../audio/aquamarine.mp4", processDirection, time );
+//        }
+        if (element.is('.paused')) actx.suspend();
         else {
             toggleDirection(element);
-            fetch("../audio/aquamarine.mp4", processDirection, time );
+            actx.resume(src.context.currentTime);
         }
 
 //        if (element.is('.paused')) src.stop();
