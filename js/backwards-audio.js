@@ -118,14 +118,14 @@ function attachHandlers() {
 //            toggleDirection(element);
 //            fetch("../audio/aquamarine.mp4", processDirection, time );
 //        }
+//        ToDo: set up alt sources for forwards/backwards and toggle
         if (element.is('.paused')) actx.suspend();
         else {
             toggleDirection(element);
             actx.resume(src.context.currentTime);
         }
 
-//        if (element.is('.paused')) src.stop();
-//        else src.start(0, time);
+//          ToDo: match tempo with graphics
 
     });
 }

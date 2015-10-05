@@ -55,12 +55,10 @@
       <file leaf-file-name="backwards-audio.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/backwards-audio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="66" selection-start="4081" selection-end="4081" vertical-scroll-proportion="0.3617021" vertical-offset="912" max-vertical-offset="1455">
+            <state line="135" column="49" selection-start="4669" selection-end="4674" vertical-scroll-proportion="0.33164558" vertical-offset="1234" max-vertical-offset="1740">
               <folding>
                 <element signature="n#!!block;n#process#0" expanded="false" />
                 <element signature="n#!!block;n#start#0" expanded="false" />
-                <element signature="n#!!block;n#toggleDirection#0" expanded="false" />
-                <element signature="n#!!block;n#fetch#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -85,10 +83,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="402" />
-    <option name="y" value="110" />
-    <option name="width" value="856" />
-    <option name="height" value="595" />
+    <option name="x" value="370" />
+    <option name="y" value="71" />
+    <option name="width" value="785" />
+    <option name="height" value="580" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -237,14 +235,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="402" y="110" width="856" height="595" extended-state="0" />
+    <frame x="370" y="71" width="785" height="580" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13413173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14659686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -301,12 +299,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/backwards-audio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="66" selection-start="4081" selection-end="4081" vertical-scroll-proportion="0.3617021" vertical-offset="912" max-vertical-offset="1455">
+        <state line="135" column="49" selection-start="4669" selection-end="4674" vertical-scroll-proportion="0.33164558" vertical-offset="1234" max-vertical-offset="1740">
           <folding>
             <element signature="n#!!block;n#process#0" expanded="false" />
             <element signature="n#!!block;n#start#0" expanded="false" />
-            <element signature="n#!!block;n#toggleDirection#0" expanded="false" />
-            <element signature="n#!!block;n#fetch#0" expanded="false" />
           </folding>
         </state>
       </provider>
