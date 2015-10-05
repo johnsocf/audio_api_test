@@ -3,18 +3,20 @@
  */
 $(document).ready(function(){
     var audio = document.getElementById('howl');
-    audio.playbackRate = -1.0;
+//    audio.playbackRate = 1.0;
 
-//    audio.on('onratechange', vidChanged);
-//
-//    function vidChanged () {
-//        console.log('video changed');
-//    }
+    //audio.currentTime = 5;
 
-    audio.onratechange = function() {myFunction()};
 
-    function myFunction() {
-        alert("The playing speed of the video was changed");
-    }
+
+    setInterval(function(){
+        console.log(Math.round(audio.currentTime));
+        if (Math.round(audio.currentTime) === 5) {
+            audio.playbackRate = -1.0;
+            audio.pause();
+            audio.play();
+        }
+    }, 10);
+
 
 });
